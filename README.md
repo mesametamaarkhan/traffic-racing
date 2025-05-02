@@ -21,6 +21,8 @@ A top-down 2D traffic racing game built with C++ and the SFML (Simple and Fast M
 Make sure the SFML development package is installed:
 
 ```bash
+git clone https://github.com/mesametamaarkhan/traffic-racing.git
+cd traffic-racing
 sudo apt update
 sudo apt install libsfml-dev
 g++ main.cpp -o trafficracer -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
